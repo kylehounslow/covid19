@@ -5,5 +5,6 @@ Visualizing up-to-date COVID-19 data
 
 ## To run jupyter:
 ```bash
+docker-compose build notebooks
 docker-compose run notebooks
 ```
