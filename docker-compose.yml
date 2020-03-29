@@ -1,0 +1,34 @@
+version: '2.3'
+
+services:
+  bash:
+    build:
+      context: .
+      dockerfile: docker/dev/Dockerfile
+    environment:
+      - DISPLAY
+      - PYTHONPATH=/usrfs$PWD:/usrfs$PWD/src/python
+      - QT_X11_NO_MITSHM=1
+    volumes:
+      - $HOME/.Xauthority:/root/.Xauthority:rw
+      - /:/usrfs
+    network_mode: host
+    privileged: true
+    entrypoint: /bin/bash
+  notebooks:
+    build:
+      context: .
+      dockerfile: docker/dev/Dockerfile
+    environment:
+      - DISPLAY
+      - PYTHONPATH=/usrfs$PWD:/usrfs$PWD/src/python
+      - QT_X11_NO_MITSHM=1
+    volumes:
+      - $HOME/.Xauthority:/root/.Xauthority:rw
+      - /:/usrfs
+    ports:
+      - "8888:8888"
+    network_mode: host
+    working_dir: /usrfs$PWD
+    privileged: true
+    entrypoint: jupyter-notebook --allow-root --ip 0.0.0.0 --port 8888 --NotebookApp.token=''
