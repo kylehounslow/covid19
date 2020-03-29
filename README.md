@@ -2,11 +2,12 @@
 Visualizing up-to-date COVID-19 data
 
 ## Example Bar Chart Race
-Created with Flourish App. Data generated using ___  
+[https://public.flourish.studio/visualisation/1726960/](https://public.flourish.studio/visualisation/1726960/)  
 
-<div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/1726960"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+Data generated using [notebooks/EDA-World.ipynb](notebooks/EDA-World.ipynb)
 
-## To run jupyter:
+
+## Running Notebooks:
 ```bash
 docker-compose build notebooks
 docker-compose run notebooks
