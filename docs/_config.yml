@@ -85,7 +85,7 @@ title: "COVID-19 Visualizations" # Site name or title, also used in jekyll-seo-t
 # logo: "/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
 description: "COVID-19 Data Visualizations Canada" # Site description and default description, also used in jekyll-seo-tag
 url: "https://kylehounslow.github.io/covid19/" # Site url, also used in jekyll-seo-tag
-baseurl: ""
+baseurl: "/covid19/"
 repo: "https://github.com/kylehounslow/covid19"
 email: "kyle.hounslow@gmail.com"
 # disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
