@@ -107,22 +107,13 @@ favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
 
 # 9. Site navigation
 navigation_header:
-- title: Home
-  url: /covid19/
-- title: World Graphs
-  url: /covid19/world/
 - title: Canada Graphs
   url: /covid19/canada/
-
-navigation_footer:
-- title: Created by Kyle Hounslow
-  url: https://www.linkedin.com/in/kylehounslow
+- title: World Graphs
+  url: /covid19/world/
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
   Twitter: https://twitter.com/kylehounslow
   LinkedIn: https://www.linkedin.com/in/kylehounslow
   GitHub: https://github.com/kylehounslow
 
-sharing_links: # Appear at the bottom of single blog posts, add as desired. The value can be 'true' or the desired button colour
-  Twitter: "#0d94e7"
-  Email: true
