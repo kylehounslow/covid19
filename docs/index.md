@@ -1,4 +1,5 @@
 ---
+title: COVID-19 World Data Visualizations
 layout: page
 ---
 <h1>Bar Chart Race</h1>
