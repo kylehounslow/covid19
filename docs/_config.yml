@@ -84,7 +84,7 @@ lang: en-GB # Set the site language
 title: "COVID-19 Visualizations" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
 description: "COVID-19 Data Visualizations Canada" # Site description and default description, also used in jekyll-seo-tag
-url: "https://kylehounslow.github.io/covid19/" # Site url, also used in jekyll-seo-tag
+url: "https://kylehounslow.github.io/covid19" # Site url, also used in jekyll-seo-tag
 baseurl: "/covid19/"
 repo: "https://github.com/kylehounslow/covid19"
 email: "kyle.hounslow@gmail.com"
@@ -111,7 +111,10 @@ navigation_header:
   url: /
 - title: Canada Graphs
   url: /canada/
-
+- title: Contact
+  url: /canada/
+- title: View on Github
+  url: /canada/
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
   Twitter: https://twitter.com/kylehounslow
