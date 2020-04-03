@@ -111,8 +111,8 @@ navigation_header:
   url: /
 - title: Canada Graphs
   url: /canada/
-- title: Contact
-  url: /canada/
+#- title: Contact
+#  url: /canada/
 - title: View on GitHub
   url: https://github.com/kylehounslow/covid19
 
