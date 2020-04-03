@@ -8,12 +8,12 @@ Data exploration and preparation done in `jupyter-notebook` and website made usi
 * [Johns Hopkins CSEE Github](https://github.com/CSSEGISandData/COVID-19)
 
 ## Running Jupyter Notebooks:
-### Either run locally using `docker-compose`  
+**Either run locally using `docker-compose`**  
 ```bash
 docker-compose build notebooks
 docker-compose run notebooks
 ```
-### Or open in Google Colab:  
+**Or open in Google Colab:**  
 * Canada Bar Chart: [notebooks/EDA-Canada.ipynb](https://colab.research.google.com/github/kylehounslow/covid19/blob/master/notebooks/EDA-Canada.ipynb)  
 * World Bar Chart: [notebooks/EDA-World.ipynb](https://colab.research.google.com/github/kylehounslow/covid19/blob/master/notebooks/EDA-World.ipynb)
 
