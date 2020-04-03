@@ -3,6 +3,15 @@ Visualizing the COVID-19 data to gain insight into how the world stands.
 
 Data exploration and preparation done in `jupyter-notebook` and website made using Jekyll and hosted here:  
 * https://kylehounslow.github.io/covid19/  
+## Running Jupyter Notebooks:
+Either run locally using `docker-compose`  
+```bash
+docker-compose build notebooks
+docker-compose run notebooks
+```
+Or open in Google Colab:  
+* Canada Bar Chart: https://colab.research.google.com/github/kylehounslow/covid19/blob/master/notebooks/EDA-Canada.ipynb  
+* World Bar Chart: https://colab.research.google.com/github/kylehounslow/covid19/blob/master/notebooks/EDA-World.ipynb
 
 ## Data Sources
 * [Johns Hopkins CSEE Github](https://github.com/CSSEGISandData/COVID-19)
@@ -16,11 +25,7 @@ Data exploration and preparation done in `jupyter-notebook` and website made usi
 ### Canada 
 * https://virihealth.com/  
 
-## Running Notebooks:
-```bash
-docker-compose build notebooks
-docker-compose run notebooks
-```
+
 
 ## Example Bar Chart Race using Flourish
 [https://public.flourish.studio/visualisation/1726960/](https://public.flourish.studio/visualisation/1726960/)  
